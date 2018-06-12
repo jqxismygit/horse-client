@@ -8,7 +8,7 @@ import './App.css';
 // type 0/red 1/green 2/blue
 import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
 
-import Login from './pages/Login'
+import Login from './pages/login'
 import CreateAccount from './pages/CreateAccount'
 import Home from './pages/Home'
 
