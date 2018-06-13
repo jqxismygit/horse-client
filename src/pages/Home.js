@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import './home.css';
+import  styles from './home.scss';
 import jQuery from 'jquery'
 const $ = jQuery;
 

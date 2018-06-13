@@ -8,15 +8,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    .container{
-        position: relative;
-        width: 40%;
-        height: 40%;
-        background: white;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
 }
+
+.container{
+    position: relative;
+    width: 40%;
+    height: 40%;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
 
