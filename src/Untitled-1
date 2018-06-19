@@ -1,9 +1,0 @@
-curl -v 'https://developer.api.autodesk.com/authentication/v1/authenticate'
-  -X 'POST'
-  -H 'Content-Type: application/x-www-form-urlencoded'
-  -d '
-    client_id=GlhAJQzGJHgngsHph7sCQNGX0s0c4PU0&
-    client_secret=XaDiy4XdQzoxrsbC&
-    grant_type=client_credentials&
-    scope=data:read
-  '

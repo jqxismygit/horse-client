@@ -1,0 +1,42 @@
+[
+  {
+    "_id": "1",
+    "tenantName": "北京样本科技",
+    "version": "企业版",
+    "status": "已发布",
+    "beginTime": "2018.04.04",
+    "releaseTime": "2018.04.04"
+  },
+  {
+    "_id": "2",
+    "tenantName": "北京样本科技",
+    "version": "企业版",
+    "status": "已发布",
+    "beginTime": "2018.04.04",
+    "releaseTime": "2018.04.04"
+  },
+  {
+    "_id": "3",
+    "tenantName": "北京样本科技",
+    "version": "企业版",
+    "status": "已发布",
+    "beginTime": "2018.04.04",
+    "releaseTime": "2018.04.04"
+  },
+  {
+    "_id": "4",
+    "tenantName": "北京样本科技",
+    "version": "企业版",
+    "status": "已发布",
+    "beginTime": "2018.04.04",
+    "releaseTime": "2018.04.04"
+  },
+  {
+    "_id": "5",
+    "tenantName": "北京样本科技",
+    "version": "企业版",
+    "status": "已发布",
+    "beginTime": "2018.04.04",
+    "releaseTime": "2018.04.04"
+  }
+]
