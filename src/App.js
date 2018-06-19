@@ -3,7 +3,8 @@ import './App.css';
 import { Router, Switch, Route, Link } from 'react-router-dom';
 import createHistory from 'history/createHashHistory'
 import * as apis from './components/api';
-import WrappedNormalLoginForm from './pages/login'
+import WrappedNormalLoginForm from './pages/login';
+import Home from './pages/home'
 const history = createHistory();
 
 const routers = [
@@ -11,6 +12,11 @@ const routers = [
         path: '/',
         component: WrappedNormalLoginForm,
         exact: true
+    },
+    {
+        path: '/home',
+        component: Home,
+        exact: false
     }
 ];
 

@@ -9,16 +9,12 @@ class Login extends Component {
 
   constructor(props) {
     super(props);
-    this.state = {
-      pageType: 0, //0.账号密码登录 1.手机验证码登录, 2.忘记密码, 3.重置密码
-      visible: false
-    };
   }
 
   render() {
     const { getFieldDecorator } = this.props.form;
     return (
-      <div style={{width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+      <div style={{ width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <Form onSubmit={this.handleSubmit} className="login-form">
           <FormItem>
             {getFieldDecorator('userName', {
